@@ -1,0 +1,151 @@
+
+
+.main{
+  margin-left: 160px;
+  padding: 0px 10px;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  }
+ a{
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      display: block;
+      color: #818181;
+      text-decoration: none;
+  }
+  a:hover {
+  color: #f1f1f1;
+  }
+  
+  
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+
+
+body {
+  background: #105469;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  color:white;
+}
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  padding-top: 200px;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: center;
+  
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 50px;
+  text-align: center;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #014055;
+}
+
+h1{
+    font-family: fantasy;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    -webkit-text-stroke:2px black;
+    padding-left:200px;
+}
+caption{
+    font-weight: 500;font-size: 20px;
+    padding-top:100px;
+    padding-bottom:25px;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 10px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+.detail{
+	padding-left:200px;
+}
+input[type="submit"] {
+  width: 100px;
+  height: 26px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+.button{
+  width: 40px;
+  height: 15px;
+  border: 1px solid #00B4CC;
+  background: rgba;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 23%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

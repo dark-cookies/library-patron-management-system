@@ -1,0 +1,69 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+  	<servlet-name>CheckOutServlet</servlet-name>
+  	<display-name>CheckOutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.work.controller.CheckOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CheckinServlet</servlet-name>
+  	<display-name>CheckinServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.work.controller.CheckinServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>NonCheckOut</servlet-name>
+  	<display-name>NonCheckOut</display-name>
+  	<description></description>
+  	<servlet-class>com.work.controller.NonCheckOut</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TopReaderServlet</servlet-name>
+  	<display-name>TopReaderServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.work.controller.TopReaderServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PatronServlet</servlet-name>
+  	<display-name>PatronServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.work.controller.PatronServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OverdueServlet</servlet-name>
+  	<display-name>OverdueServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.work.controller.OverdueServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>CheckOutServlet</servlet-name>
+  	<url-pattern>/CheckOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CheckinServlet</servlet-name>
+  	<url-pattern>/CheckinServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NonCheckOut</servlet-name>
+  	<url-pattern>/NonCheckOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TopReaderServlet</servlet-name>
+  	<url-pattern>/TopReaderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PatronServlet</servlet-name>
+  	<url-pattern>/PatronServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OverdueServlet</servlet-name>
+  	<url-pattern>/OverdueServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

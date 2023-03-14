@@ -1,0 +1,42 @@
+.main{
+  
+  padding: 0px 10px;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  }
+ a{
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      display: block;
+      color: #818181;
+      text-decoration: none;
+  }
+  a:hover {
+  color: #f1f1f1;
+  }
+  
+  
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+
+
+body {
+  background: #105469;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  color:white;
+}
